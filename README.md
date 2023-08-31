@@ -18,3 +18,16 @@ Luego voy a IntelliJ y desde allí abriré la carpeta de mi proyecto. Como puedo
 Así me ahorro el tiempo y el esfuerzo de tener que instalarlas manualmente una por una.
 
 Lo siguiente será añadir unas configuraciones adicionales a nuestro proyecto en IntelliJ.
+Click en File --> Settings 
+Marcamos las siguientes configuraciones:
+
+![Captura de pantalla (173)](https://github.com/arh91/API-Rest-H2/assets/32130215/324ea21f-75c3-424a-8dd9-c520f2816c3d)
+
+![Captura de pantalla (174)](https://github.com/arh91/API-Rest-H2/assets/32130215/069d15f7-5457-431f-8efb-e0ab7b79d429)
+
+
+Busco la ruta de Maven en mi equipo y la selecciono para mi proyecto:
+
+![Captura de pantalla (175)](https://github.com/arh91/API-Rest-H2/assets/32130215/c7fb48ec-1324-4e78-ade8-c72ff570658a)
+
+
