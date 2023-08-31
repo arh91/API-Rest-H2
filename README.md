@@ -1,4 +1,4 @@
-# API-Rest-H2
+# API-Rest-SpringBoot
 Ejemplo de aplicación que utiliza una API con protocolo REST, Spring Boot para Java y base de datos local H2
 
 
