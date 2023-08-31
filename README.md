@@ -1,5 +1,5 @@
 # API-Rest-H2
-Ejemplo de aplicación que utiliza una API con protocolo REST, framework Spring con Java y base de datos local H2
+Ejemplo de aplicación que utiliza una API con protocolo REST, Spring Boot para Java y base de datos local H2
 
 
 Primero de todo, debemos asegurarnos de que tenemos instalado en nuestro equipo Maven y Postman, ya que serán dos herramientas necesarias para hacer funcionar nuestra API-Rest.
