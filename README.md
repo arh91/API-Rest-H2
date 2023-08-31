@@ -12,3 +12,9 @@ Ahora tendremos que elegir qué características y herramientas vamos a seleccio
 
 ![Captura de pantalla (172)](https://github.com/arh91/API-Rest-H2/assets/32130215/9f7cfad4-2dc2-462d-a181-3c9d28858a3b)
 
+Una vez que esté todo configurado, hago click en "Generate".
+Se me generará un archivo zip. Elijo una ubicación y lo descomprimo.
+Luego voy a IntelliJ y desde allí abriré la carpeta de mi proyecto. Como puedo comprobar, ya se han instalado automáticamente todas las librerías necesarias, gracias a Maven. 
+Así me ahorro el tiempo y el esfuerzo de tener que instalarlas manualmente una por una.
+
+Lo siguiente será añadir unas configuraciones adicionales a nuestro proyecto en IntelliJ.
