@@ -89,6 +89,9 @@ Ahora abro Postman, creo una nueva colección a la que llamaré Users,  luego cl
 
 ![Captura de pantalla (191)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/891eaa6e-fa4d-4da6-943e-d478ea128c34)
 
+A continuación, voy a la base de datos y vuelvo a ejecutar la sentencia para listar los registros de Users, y veremos como ésta vez sí me aparece en la tabla el registro que acabo de introducir y enviar a través de Postman:
+
+![Captura de pantalla (192)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/a9c92513-ef97-4669-a5f5-cd439ac5516b)
 
 
 
