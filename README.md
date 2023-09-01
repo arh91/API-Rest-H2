@@ -57,6 +57,10 @@ Es decir, extendemos JpaRepository seguido de <User, Long>.
 ![Captura de pantalla (179)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/8373241c-061e-4f29-93a8-545b75fb4a3e)
 
 
+Luego creamos la clase userService, a la cuál añadimos una sereie de métodos CRUD, que a su vez llamarán a los métodos correspondientes de nuestro repositorio UserRepository (métodos que ha heredado de la clase JpaRepository de la cuál extiende).
+
+![Captura de pantalla (180)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/70df601a-2c49-4559-a1ba-eaa6f548ecc4)
+
 
 
 
