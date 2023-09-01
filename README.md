@@ -33,7 +33,7 @@ Busco la ruta del Maven  que previamente he instalado en mi equipo y la seleccio
 
 
 
-A continuación, en el archivo application.properties configuro el acceso a la base de datos, cuál será el nombre de la misma. Tmabién le pedimos que cree las tablas correspondientes en nuestra base de datos, si estas no existen. Y asignsmos una url para acceder a nuestra base de datos a través del navegador.
+A continuación, en el archivo application.properties configuro el acceso a la base de datos, cuál será el nombre de la misma. También le pedimos que cree las tablas correspondientes en nuestra base de datos, si estas no existen. Y asignamos una url para acceder a nuestra base de datos a través del navegador.
 
 ![Captura de pantalla (176)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/81bad9f2-b705-4630-8223-a5d50126c938)
 
