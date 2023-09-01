@@ -69,6 +69,14 @@ Dentro de éste paquete, crearemos una nueva clase, a la que llamaremos UserCont
 
 ![Captura de pantalla (186)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/1492256c-7ca7-4e01-80f0-17bcd6ef9574)
 
+Una vez terminado de montar mi proyecto, tendré que ejecutar la clase ApiRestApplication.java para que se genere mi base de datos en la dirección que le haya especificado:
+
+![Captura de pantalla (187)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/2c995fad-e137-4af7-96f4-7e8cd41cafff)
+
+A continuación, en el navegador introduzco la url para acceder a mi base de datos (la url que yo configuré en el archivo application.properties de mi proyecto.
+
+![Captura de pantalla (188)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/e3f8c39e-5b37-438a-844c-71fd6c06be98)
+
 
 
 
