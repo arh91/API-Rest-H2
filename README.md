@@ -61,6 +61,14 @@ Luego creamos la clase userService, a la cuál añadimos una sereie de métodos 
 
 ![Captura de pantalla (180)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/70df601a-2c49-4559-a1ba-eaa6f548ecc4)
 
+A continuación, dentro de com.icode.apirest creamos un nuevo paquete, de nombre controller.
+Dentro de éste paquete, crearemos una nueva clase, a la que llamaremos UserController.
+Ésta clase expone sus métodos como endpoints para poder ser utilizados por cualquier cliente, para ello antes de la clase debemos asignarle la anotación @RestController.
+
+![Captura de pantalla (185)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/c6aace36-31b6-4405-867f-2239abba546c)
+
+![Captura de pantalla (186)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/1492256c-7ca7-4e01-80f0-17bcd6ef9574)
+
 
 
 
