@@ -48,6 +48,15 @@ También generaremos los getters y setters correspondientes.
 ![Captura de pantalla (178)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/9a3e350c-a942-4f5a-b002-cebc05641b59)
 
 
+Luego, dentro de com.icode.apirest crearemos un nuevo paquete, de nombre repository.
+Dentro de éste paquete, creamos una nueva interfaz, a la que llamaremos UserRepository. Ésta interfaz va a extender de la interfaz JpaRepository, la cuál va a recibir dos tipos de datos.
+El primer dato que recibirá será la clase a la que se van a aplicar los métodos CRUD, en nuestro caso la clase será User. 
+El segundo dato que nos pide es el tipo de dato correspondiente a la variable que está asociada a la clave primaria en nuestra tabla, en nuestro caso la clave primaria sería Id, cuyo tipo de dato es Long. Así que como segundo dato le pasaremos Long.
+Es decir, extendemos JpaRepository seguido de <User, Long>.
+
+![Captura de pantalla (179)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/8373241c-061e-4f29-93a8-545b75fb4a3e)
+
+
 
 
 
