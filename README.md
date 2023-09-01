@@ -74,8 +74,23 @@ Una vez terminado de montar mi proyecto, tendré que ejecutar la clase ApiRestAp
 ![Captura de pantalla (187)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/2c995fad-e137-4af7-96f4-7e8cd41cafff)
 
 A continuación, en el navegador introduzco la url para acceder a mi base de datos (la url que yo configuré en el archivo application.properties de mi proyecto.
-
+Me mostrará la interfaz de acceso a mi base de datos, donde tendré que introducir los datos de acceso (los que haya configurado en appliczation.properties).
 ![Captura de pantalla (188)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/e3f8c39e-5b37-438a-844c-71fd6c06be98)
+
+Luego al hacer click en Connect, si los datos de acceso son correctos, se me abrirá la interfaz de nuestra base de datos, que tendrá un aspecto como éste:
+
+![Captura de pantalla (189)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/edbc6194-a5aa-4f44-8c91-182de29ae84b)
+
+Si introduzco la sentencia sql para listar los registros de la tabla Users, veremos que en la tabla no hay registros en éste momento:
+
+![Captura de pantalla (190)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/5d6e62d0-13d2-42c3-9a79-79de6cb42b6d)
+
+Ahora abro Postman, creo una nueva colección a la que llamaré Users,  luego click en "New Request", selecciono como tipo de petición POST, luego introduzco la url para acceder a los métodos para operar con la base de datos (>ésta url termina en /users tal y como especifiqué en el parámetro del @RequestMapping de la clase UserController en mi proyecto). después hago click en Body, y después click en Raw y selecciono como formato JSON. En el textArea, introduzco los datos del registro que voy a insertar en formato JSON, en este caso tengo que introducir como datos firstName, lastName y email (el id no tengo que introducirlo ya que lo había configurado en IntelliJ para que mi base de datos me lo genere automáticamente). Una vez haya introducido los datos del registro, hago click en Send para que Postman me lo guarde en la base de datos.
+
+![Captura de pantalla (191)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/891eaa6e-fa4d-4da6-943e-d478ea128c34)
+
+
+
 
 
 
