@@ -1,5 +1,5 @@
-# API-Rest-H2
-Ejemplo de aplicación que utiliza una API con protocolo REST, framework Spring con Java y base de datos local H2
+# API-Rest-SpringBoot
+Ejemplo de aplicación que utiliza una API con protocolo REST, Spring Boot para Java y base de datos local H2
 
 
 Primero de todo, debemos asegurarnos de que tenemos instalado en nuestro equipo Maven y Postman, ya que serán dos herramientas necesarias para hacer funcionar nuestra API-Rest.
@@ -26,8 +26,37 @@ Marcamos las siguientes configuraciones:
 ![Captura de pantalla (174)](https://github.com/arh91/API-Rest-H2/assets/32130215/069d15f7-5457-431f-8efb-e0ab7b79d429)
 
 
-Busco la ruta de Maven en mi equipo y la selecciono para mi proyecto:
+
+Busco la ruta del Maven  que previamente he instalado en mi equipo y la selecciono para mi proyecto:
 
 ![Captura de pantalla (175)](https://github.com/arh91/API-Rest-H2/assets/32130215/c7fb48ec-1324-4e78-ade8-c72ff570658a)
+
+
+
+A continuación, en el archivo application.properties configuro el acceso a la base de datos, cuál será el nombre de la misma. También le pedimos que cree las tablas correspondientes en nuestra base de datos, si estas no existen. Y asignamos una url para acceder a nuestra base de datos a través del navegador.
+
+![Captura de pantalla (176)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/81bad9f2-b705-4630-8223-a5d50126c938)
+
+
+
+Luego, dentro de com.icode.apirest creo un nuevo paquete al que llamaré model. Dentro del paquete model crearé la clase User.
+Ésta clase la vamos a mapear como una tabla de nombre Users en nuestra base de datos. Cada uno de los atributos de ésta clase se corresponderán con columnas de dicha tabla.
+También generaremos los getters y setters correspondientes.
+
+![Captura de pantalla (177)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/3b5a8827-c731-4214-8916-1467b054385d)
+
+![Captura de pantalla (178)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/9a3e350c-a942-4f5a-b002-cebc05641b59)
+
+
+Luego, dentro de com.icode.apirest crearemos un nuevo paquete, de nombre repository.
+Dentro de éste paquete, creamos una nueva interfaz, a la que llamaremos UserRepository. Ésta interfaz va a extender de la interfaz JpaRepository, la cuál va a recibir dos tipos de datos.
+El primer dato que recibirá será la clase a la que se van a aplicar los métodos CRUD, en nuestro caso la clase será User. 
+El segundo dato que nos pide es el tipo de dato correspondiente a la variable que está asociada a la clave primaria en nuestra tabla, en nuestro caso la clave primaria sería Id, cuyo tipo de dato es Long. Así que como segundo dato le pasaremos Long.
+Es decir, extendemos JpaRepository seguido de <User, Long>.
+
+![Captura de pantalla (179)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/8373241c-061e-4f29-93a8-545b75fb4a3e)
+
+
+
 
 
