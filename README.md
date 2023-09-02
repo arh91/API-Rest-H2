@@ -93,6 +93,20 @@ A continuación, voy a la base de datos y vuelvo a ejecutar la sentencia para li
 
 ![Captura de pantalla (192)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/a9c92513-ef97-4669-a5f5-cd439ac5516b)
 
+Luego en Postman añado un nuevo registro para la tabla Users y de nuevo click en Send:
+
+![Captura de pantalla (193)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/d64dd66c-56d4-4808-9b59-1059ebddfeab)
+
+Vuelvo a mi base de datos y ejecuto de nuevo la sentencia para listar registros de Users, y vemos que se me ha añadido el registro que acabo de introducir en Postman:
+
+![Captura de pantalla (194)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/4f77c048-818a-4fb4-94c3-6d6e7b43c60d)
+
+Ahora vuelvo a Postman, y desde allí voy a probar a listar todos los usuarios, introduciendo la url que previamente había configurado para ello en mi UserController de mi proyecto, y estableciendo GET como tipo de petición. Click en Send y nos mostrará todos los usuarios que hemos registrado hasta este momento (en nuestro caso 2 registros):
+
+![Captura de pantalla (195)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/f7557e19-43c3-4feb-a248-91442b35a930)
+
+
+
 
 
 
