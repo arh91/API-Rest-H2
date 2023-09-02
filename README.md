@@ -105,6 +105,18 @@ Ahora vuelvo a Postman, y desde allí voy a probar a listar todos los usuarios, 
 
 ![Captura de pantalla (195)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/f7557e19-43c3-4feb-a248-91442b35a930)
 
+A continuación, en Postman vamos a buscar el usuario que tiene por Id el número 1 (búsqueda de tipo GET):
+
+![Captura de pantalla (197)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/6e201495-7c32-4afa-84c9-245de8642355)
+
+Luego, buscamos el que tiene el numero 2 (búsqueda de tipo GET):
+
+![Captura de pantalla (196)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/59adc4c5-2d2a-4863-a2d1-2173cacfc8d2)
+
+A continuación, voy a borrar el registro de Id número 1 (instrucción de tipo DELETE):
+
+![Captura de pantalla (199)](https://github.com/arh91/API-Rest-SpringBoot/assets/32130215/9f84ac57-cb67-4d2d-9cb7-7101b96c5b57)
+
 
 
 
